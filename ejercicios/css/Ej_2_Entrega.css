@@ -13,20 +13,22 @@ h1 {
     margin: 0;
 }
 
-body .contenido {
-    width: 900px;
-    margin: 0 auto;
+@media (min-width: 900px) {
+    body .contenido {
+        width: 900px;
+        margin: 0 auto;
+    }
+
+    .mitad {
+        width: 420px;
+        float: left;
+    }
 }
 
 #header {
     padding: 20px;
     color: white;
     background-color: rgb(52, 73, 94);
-}
-
-.mitad {
-    width: 420px;
-    float: left;
 }
 
 ul#piezas {
