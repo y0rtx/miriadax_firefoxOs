@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(236, 240, 241);
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+body .contenido {
+    width: 900px;
+    margin: 0 auto;
+}
+
+#header {
+    padding: 20px;
+    color: white;
+    background-color: rgb(52, 73, 94);
+}
+
+.mitad {
+    width: 420px;
+    float: left;
+}
+
+ul#piezas {
+    list-style-type: none;
+}
+
+ul#piezas li {
+    margin-bottom: 5px;
+    padding-left: 50px;
+    background-repeat: no-repeat;
+}
+
+ul#piezas li#rey {
+    background-image: url('../img/Diagramkit_v2/Figurines/Black%20K.png');
+}
+
+ul#piezas li#reina {
+    background-image: url('../img/Diagramkit_v2/Figurines/Black%20Q.png');
+}
+
+ul#piezas li#torre {
+    background-image: url('../img/Diagramkit_v2/Figurines/Black%20R.png');
+}
+
+ul#piezas li#alfil {
+    background-image: url('../img/Diagramkit_v2/Figurines/Black%20B.png');
+}
+
+ul#piezas li#caballo {
+    background-image: url('../img/Diagramkit_v2/Figurines/Black%20N.png');
+}
+
+ul#piezas li#peon {
+    background-image: url('../img/Diagramkit_v2/Figurines/Black%20P.png');
+}
+
+#tablero {
+    width: 400px;
+}
